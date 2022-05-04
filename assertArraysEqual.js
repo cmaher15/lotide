@@ -18,7 +18,7 @@ const assertArraysEqual = function(array1, array2) {
   }
 };
 
-console.log(assertArraysEqual([1,2,3,4], [3,5,6,7]));
-console.log(assertArraysEqual([1,2,3,4], [1,3,4,5]));
-console.log(assertArraysEqual([1,2,3,4], [1,2,3,4]));
-console.log(assertArraysEqual(['hello', 'how', 'are'], ['you', 'are', 'how']));
+assertArraysEqual([1,2,3,4], [3,5,6,7]);
+assertArraysEqual([1,2,3,4], [1,3,4,5]);
+assertArraysEqual([1,2,3,4], [1,2,3,4]);
+assertArraysEqual(['hello', 'how', 'are'], ['you', 'are', 'how']);
