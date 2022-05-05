@@ -20,7 +20,7 @@ const assertArraysEqual = function(array1, array2) {
 
 const letterPositions = function(allLetters) {
   const output = {};
-  const string = allLetters.split(" ").join("")
+  const string = allLetters.split(" ").join("");
   for (let i = 0; i < string.length; i++) {
     let key = string[i];
     let value = i;
@@ -29,16 +29,16 @@ const letterPositions = function(allLetters) {
       value.push(i);
       output[key] = value;
     } else {
-    output[string[i]] = [i];
-  } 
-}
-return output;
-}
+      output[string[i]] = [i];
+    }
+  }
+  return output;
+};
 
-console.log(letterPositions("ceilidhe"))
-console.log(letterPositions("hello how are"))
+console.log(letterPositions("ceilidhe"));
+console.log(letterPositions("hello how are"));
 
 
-assertArraysEqual(letterPositions("hello").e, [1])
-assertArraysEqual(letterPositions("ceilidhe").e, [1,7])
-assertArraysEqual(letterPositions("ceilidhe").l, [3])
+assertArraysEqual(letterPositions("hello").e, [1]);
+assertArraysEqual(letterPositions("ceilidhe").e, [1,7]);
+assertArraysEqual(letterPositions("ceilidhe").l, [3]);
