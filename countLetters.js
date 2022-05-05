@@ -22,3 +22,10 @@ const countLetters = function(allLetters) {
 console.log(countLetters("ceilidhe"));
 console.log(countLetters("LHL"));
 console.log(countLetters("lighthouse in the house"));
+
+//ASSERT ARRAY TEST NEEDED
+const result1 = countLetters("ceilidhe");
+const result2 = countLetters("Lighthouse in the house");
+assertEqual(result1.e, 2);
+assertEqual(result2.h, 4);
+
