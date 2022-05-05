@@ -35,4 +35,4 @@ const ba = { b: "2", a: "1" };
 const bc = { b: "4", c: "5", d: "6"};
 const cd = { b: "4", c: "6", d: "5", e: "8"};
 assertObjectsEqual(eqObjects(ab, ba), true);
-assertObjectsEqual(eqObjects(bc, cd), true);
+assertObjectsEqual(eqObjects(bc, cd), false);
