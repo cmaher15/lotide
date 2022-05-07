@@ -62,3 +62,8 @@ assertEqual(stars, stars1);
 assertEqual(pets, pets1);
 assertEqual(grades, grades1);
 
+module.exports = {
+  assertEqual,
+  findKey
+  }
+

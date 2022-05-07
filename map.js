@@ -24,7 +24,7 @@ const upperFoods = ['APPLE', 'PRETZEL', 'PEAR', 'PINEAPPLE'];
 const pets = ['dog', 'cat', 'parrot'];
 const morePets = ['cat', 'parrot'];
 
-let map = function(array, callback) {
+const map = function(array, callback) {
   let results = [];
   for (let item of array) {
     results.push(callback(item));
@@ -39,4 +39,8 @@ assertArraysEqual(map(pets, morePets => morePets.toUpperCase()), pets);
 
 assertArraysEqual(map(foods, upperFoods => upperFoods.toLowerCase()), foods);
 
-
+module.exports = {
+  eqArrays,
+  assertArraysEqual,
+  map
+  }

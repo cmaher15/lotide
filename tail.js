@@ -6,7 +6,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
-let tail = (array) => {
+const tail = (array) => {
   let newArray = array.slice(1);
   return newArray;
 };
@@ -16,3 +16,8 @@ const words = ["Yo Yo", "Lighthouse", "Labs"];
 console.log(tail(words));
 console.log(words);
 assertEqual(words.length, 3);
+
+module.exports = {
+  assertEqual,
+  tail
+  }

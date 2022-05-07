@@ -42,3 +42,9 @@ console.log(letterPositions("hello how are"));
 assertArraysEqual(letterPositions("hello").e, [1]);
 assertArraysEqual(letterPositions("ceilidhe").e, [1,7]);
 assertArraysEqual(letterPositions("ceilidhe").l, [3]);
+
+module.exports = {
+  eqArrays,
+  assertArraysEqual,
+  letterPositions
+  }

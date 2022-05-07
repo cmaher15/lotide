@@ -37,3 +37,9 @@ assertArraysEqual(without(['hello', 'how', 'are', 'you'], ['hello']), ['how', 'a
 const words = ["hello", "world", "lighthouse"];
 without(words, ["lighthouse"]);
 assertArraysEqual(words, ["hello", "world", "lighthouse"]);
+
+module.exports = {
+  eqArrays,
+  assertArraysEqual,
+  without
+  }

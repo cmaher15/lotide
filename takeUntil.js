@@ -57,6 +57,11 @@ console.log(results4);
 assertArraysEqual(results4, name2);
 assertArraysEqual(results3, results2);
 
+module.exports = {
+  eqArrays,
+  assertArraysEqual,
+  takeUntil
+  }
 
 
 

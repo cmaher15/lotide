@@ -41,3 +41,7 @@ assertObjectsEqual(ab, ba);
 assertObjectsEqual(bc, cd);
 assertObjectsEqual(xy, yz);
 
+module.exports = {
+  eqObjects,
+  assassertObjectsEqual
+  }

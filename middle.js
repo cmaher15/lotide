@@ -38,3 +38,9 @@ console.log(middle([1,2,3,6,5,8]));
 
 assertArraysEqual(middle([1,2,3,4]), [2,3]);
 assertArraysEqual(middle([4,5,6,7,8,9]), [6,7]);
+
+module.exports = {
+  eqArrays,
+  assertArraysEqual,
+  middle
+  }
