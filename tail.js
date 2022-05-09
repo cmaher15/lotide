@@ -6,7 +6,4 @@ const tail = (array) => {
 };
 
 
-module.exports = {
-  assertEqual,
-  tail
-  }
+module.exports = tail
