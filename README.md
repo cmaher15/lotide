@@ -36,5 +36,6 @@ The following functions are currently implemented:
 *  `findKeyByValue()`: - takes in an object and a value to look for. If the value in the object matches a key, that key will be returned.
 *  `findKey()`: - takes in an object and a callback function. Depending on the callback function, the key that matches this callback function will be returned. 
 *  `letterPositions()`: - takes in a string and returns the position of each letter. If the letter occurs more than once, all positions of each letter will be returned.
+*  `map()`: - takes in an item and a callback function. This function will manipulate the item and return a new version of the original item, based on the callback function. 
 *  `takeUntil()`: - takes in an array and a callback function. The callback function defines where the array will stop, and returns the array up until (but not including) this stopping point.
 *  `without()`: - takes in an item and an item to remove as parameters. The function will return a modified version of the item, excluding the item which was removed. 
