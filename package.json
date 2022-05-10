@@ -1,7 +1,7 @@
 {
   "name": "@ceilidhem/lotide",
-  "version": "1.0.2",
-  "description": "to help with npm testing - version 1.0.2 updated to include function descriptions",
+  "version": "1.0.3",
+  "description": "to help with npm testing - version 1.0.3 updated to include function description for map()",
   "main": "index.js",
   "directories": {
     "test": "test"
