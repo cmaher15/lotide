@@ -9,5 +9,4 @@ const findKeyByValue = function(objects, movie) {
 
 
 
-module.exports = findKeyByValue
-  
+module.exports = findKeyByValue;

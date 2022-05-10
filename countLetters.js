@@ -11,4 +11,4 @@ const countLetters = function(allLetters) {
   return output;
 };
 
-module.exports = countLetters
+module.exports = countLetters;
